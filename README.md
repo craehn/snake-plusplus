@@ -4,6 +4,6 @@ Readme file for Snake++ project.
 Cross-platform development running Visual Studio in Windows and CLion in macOS.
 
 Authors: 
-- Torstein Alvern
-- Thomas Hartmann
-- Clement Marescaux
+- Torstein Alvern (Windows/VS)
+- Thomas Hartmann (macOS/CLion)
+- Clement Marescaux (Windows/VS)
