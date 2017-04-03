@@ -43,10 +43,10 @@ RM = "/Users/Thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven"
+CMAKE_SOURCE_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Oppgaven.dir/depend.make
@@ -57,213 +57,7 @@ include CMakeFiles/Oppgaven.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Oppgaven.dir/flags.make
 
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o: CMakeFiles/Oppgaven.dir/flags.make
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o: ../SDL2_Standardproject/SDL/SDLBmp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLBmp.cpp"
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLBmp.cpp" > CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLBmp.cpp" -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.requires:
-
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.requires
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.provides: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.provides.build
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.provides
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.provides.build: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o
-
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o: CMakeFiles/Oppgaven.dir/flags.make
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o: ../SDL2_Standardproject/SDL/SDLError.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLError.cpp"
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLError.cpp" > CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.i
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLError.cpp" -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.s
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.requires:
-
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.requires
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.provides: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.provides.build
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.provides
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.provides.build: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o
-
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o: CMakeFiles/Oppgaven.dir/flags.make
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o: ../SDL2_Standardproject/SDL/SDLManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLManager.cpp"
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLManager.cpp" > CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLManager.cpp" -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.requires:
-
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.requires
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.provides: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.provides.build
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.provides
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.provides.build: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o
-
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o: CMakeFiles/Oppgaven.dir/flags.make
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/GameManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/GameManager.cpp"
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/GameManager.cpp" > CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.i
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/GameManager.cpp" -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.s
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.requires:
-
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.requires
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.provides: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.provides.build
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.provides
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.provides.build: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o
-
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o: CMakeFiles/Oppgaven.dir/flags.make
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o: ../SDL2_Standardproject/InputManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/InputManager.cpp"
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/InputManager.cpp" > CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.i
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/InputManager.cpp" -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.s
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.requires:
-
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.requires
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.provides: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.provides.build
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.provides
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.provides.build: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o
-
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o: CMakeFiles/Oppgaven.dir/flags.make
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Main.cpp"
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Main.cpp" > CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.i
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Main.cpp" -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.s
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.requires:
-
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.requires
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.provides: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.provides.build
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.provides
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.provides.build: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o
-
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o: CMakeFiles/Oppgaven.dir/flags.make
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o: ../SDL2_Standardproject/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Timer.cpp"
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Timer.cpp" > CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.i
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Timer.cpp" -o CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.s
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.requires:
-
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.requires
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.provides: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.provides.build
-.PHONY : CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.provides
-
-CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.provides.build: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o
-
-
-# Object files for target Oppgaven
-Oppgaven_OBJECTS = \
-"CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o" \
-"CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o" \
-"CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o" \
-"CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o" \
-"CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o" \
-"CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o" \
-"CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o"
-
-# External object files for target Oppgaven
-Oppgaven_EXTERNAL_OBJECTS =
-
-Oppgaven: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o
-Oppgaven: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o
-Oppgaven: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o
-Oppgaven: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o
-Oppgaven: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o
-Oppgaven: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o
-Oppgaven: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o
-Oppgaven: CMakeFiles/Oppgaven.dir/build.make
-Oppgaven: /usr/local/lib/libSDL2main.a
-Oppgaven: /usr/local/lib/libSDL2.dylib
-Oppgaven: CMakeFiles/Oppgaven.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Oppgaven"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Oppgaven.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-CMakeFiles/Oppgaven.dir/build: Oppgaven
-
-.PHONY : CMakeFiles/Oppgaven.dir/build
-
-CMakeFiles/Oppgaven.dir/requires: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.requires
-CMakeFiles/Oppgaven.dir/requires: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.requires
-CMakeFiles/Oppgaven.dir/requires: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.requires
-CMakeFiles/Oppgaven.dir/requires: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o.requires
-CMakeFiles/Oppgaven.dir/requires: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o.requires
-CMakeFiles/Oppgaven.dir/requires: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o.requires
-CMakeFiles/Oppgaven.dir/requires: CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o.requires
+CMakeFiles/Oppgaven.dir/requires:
 
 .PHONY : CMakeFiles/Oppgaven.dir/requires
 
@@ -272,6 +66,6 @@ CMakeFiles/Oppgaven.dir/clean:
 .PHONY : CMakeFiles/Oppgaven.dir/clean
 
 CMakeFiles/Oppgaven.dir/depend:
-	cd "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles/Oppgaven.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/Oppgaven.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Oppgaven.dir/depend
 

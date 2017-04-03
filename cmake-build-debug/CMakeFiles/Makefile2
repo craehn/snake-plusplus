@@ -54,45 +54,45 @@ RM = "/Users/Thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven"
+CMAKE_SOURCE_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/Oppgaven.dir
+# Target rules for target CMakeFiles/snake-plusplus.dir
 
 # All Build rule for target.
-CMakeFiles/Oppgaven.dir/all:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/depend
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target Oppgaven"
-.PHONY : CMakeFiles/Oppgaven.dir/all
+CMakeFiles/snake-plusplus.dir/all:
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/depend
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target snake-plusplus"
+.PHONY : CMakeFiles/snake-plusplus.dir/all
 
 # Include target in all.
-all: CMakeFiles/Oppgaven.dir/all
+all: CMakeFiles/snake-plusplus.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Oppgaven.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" 8
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Oppgaven.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Oppgaven.dir/rule
+CMakeFiles/snake-plusplus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/snake-plusplus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/snake-plusplus.dir/rule
 
 # Convenience name for target.
-Oppgaven: CMakeFiles/Oppgaven.dir/rule
+snake-plusplus: CMakeFiles/snake-plusplus.dir/rule
 
-.PHONY : Oppgaven
-
-# clean rule for target.
-CMakeFiles/Oppgaven.dir/clean:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/clean
-.PHONY : CMakeFiles/Oppgaven.dir/clean
+.PHONY : snake-plusplus
 
 # clean rule for target.
-clean: CMakeFiles/Oppgaven.dir/clean
+CMakeFiles/snake-plusplus.dir/clean:
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/clean
+.PHONY : CMakeFiles/snake-plusplus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/snake-plusplus.dir/clean
 
 .PHONY : clean
 

@@ -1,11 +1,168 @@
-cmake_minimum_required(VERSION 3.6)
-project(Oppgaven)
+cmake_minimum_required(VERSION 3.7)
+project(snake-plusplus)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
-link_directories(${SDL2_INCLUDE_DIR})
+# includes cmake/FindSDL2.cmake
+set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
+
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIR})
 
 set(SOURCE_FILES
+        packages/sdl2.2.0.5/build/native/include/begin_code.h
+        packages/sdl2.2.0.5/build/native/include/close_code.h
+        packages/sdl2.2.0.5/build/native/include/SDL.h
+        packages/sdl2.2.0.5/build/native/include/SDL_assert.h
+        packages/sdl2.2.0.5/build/native/include/SDL_atomic.h
+        packages/sdl2.2.0.5/build/native/include/SDL_audio.h
+        packages/sdl2.2.0.5/build/native/include/SDL_bits.h
+        packages/sdl2.2.0.5/build/native/include/SDL_blendmode.h
+        packages/sdl2.2.0.5/build/native/include/SDL_clipboard.h
+        packages/sdl2.2.0.5/build/native/include/SDL_config.h
+        packages/sdl2.2.0.5/build/native/include/SDL_cpuinfo.h
+        packages/sdl2.2.0.5/build/native/include/SDL_egl.h
+        packages/sdl2.2.0.5/build/native/include/SDL_endian.h
+        packages/sdl2.2.0.5/build/native/include/SDL_error.h
+        packages/sdl2.2.0.5/build/native/include/SDL_events.h
+        packages/sdl2.2.0.5/build/native/include/SDL_filesystem.h
+        packages/sdl2.2.0.5/build/native/include/SDL_gamecontroller.h
+        packages/sdl2.2.0.5/build/native/include/SDL_gesture.h
+        packages/sdl2.2.0.5/build/native/include/SDL_haptic.h
+        packages/sdl2.2.0.5/build/native/include/SDL_hints.h
+        packages/sdl2.2.0.5/build/native/include/SDL_joystick.h
+        packages/sdl2.2.0.5/build/native/include/SDL_keyboard.h
+        packages/sdl2.2.0.5/build/native/include/SDL_keycode.h
+        packages/sdl2.2.0.5/build/native/include/SDL_loadso.h
+        packages/sdl2.2.0.5/build/native/include/SDL_log.h
+        packages/sdl2.2.0.5/build/native/include/SDL_main.h
+        packages/sdl2.2.0.5/build/native/include/SDL_messagebox.h
+        packages/sdl2.2.0.5/build/native/include/SDL_mouse.h
+        packages/sdl2.2.0.5/build/native/include/SDL_mutex.h
+        packages/sdl2.2.0.5/build/native/include/SDL_name.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengl.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengl_glext.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengles.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengles2.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengles2_gl2.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengles2_gl2ext.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengles2_gl2platform.h
+        packages/sdl2.2.0.5/build/native/include/SDL_opengles2_khrplatform.h
+        packages/sdl2.2.0.5/build/native/include/SDL_pixels.h
+        packages/sdl2.2.0.5/build/native/include/SDL_platform.h
+        packages/sdl2.2.0.5/build/native/include/SDL_power.h
+        packages/sdl2.2.0.5/build/native/include/SDL_quit.h
+        packages/sdl2.2.0.5/build/native/include/SDL_rect.h
+        packages/sdl2.2.0.5/build/native/include/SDL_render.h
+        packages/sdl2.2.0.5/build/native/include/SDL_revision.h
+        packages/sdl2.2.0.5/build/native/include/SDL_rwops.h
+        packages/sdl2.2.0.5/build/native/include/SDL_scancode.h
+        packages/sdl2.2.0.5/build/native/include/SDL_shape.h
+        packages/sdl2.2.0.5/build/native/include/SDL_stdinc.h
+        packages/sdl2.2.0.5/build/native/include/SDL_surface.h
+        packages/sdl2.2.0.5/build/native/include/SDL_system.h
+        packages/sdl2.2.0.5/build/native/include/SDL_syswm.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_assert.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_common.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_compare.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_crc32.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_font.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_fuzzer.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_harness.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_images.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_log.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_md5.h
+        packages/sdl2.2.0.5/build/native/include/SDL_test_random.h
+        packages/sdl2.2.0.5/build/native/include/SDL_thread.h
+        packages/sdl2.2.0.5/build/native/include/SDL_timer.h
+        packages/sdl2.2.0.5/build/native/include/SDL_touch.h
+        packages/sdl2.2.0.5/build/native/include/SDL_types.h
+        packages/sdl2.2.0.5/build/native/include/SDL_version.h
+        packages/sdl2.2.0.5/build/native/include/SDL_video.h
+        packages/sdl2.v140.2.0.4/build/native/include/begin_code.h
+        packages/sdl2.v140.2.0.4/build/native/include/close_code.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_assert.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_atomic.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_audio.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_bits.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_blendmode.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_clipboard.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_android.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_iphoneos.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_macosx.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_minimal.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_pandora.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_psp.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_windows.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_winrt.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_config_wiz.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_copying.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_cpuinfo.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_egl.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_endian.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_error.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_events.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_filesystem.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_gamecontroller.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_gesture.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_haptic.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_hints.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_joystick.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_keyboard.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_keycode.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_loadso.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_log.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_main.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_messagebox.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_mouse.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_mutex.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_name.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengl.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengl_glext.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_gl2.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_gl2ext.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_gl2platform.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_khrplatform.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_pixels.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_platform.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_power.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_quit.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_rect.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_render.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_revision.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_rwops.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_scancode.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_shape.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_stdinc.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_surface.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_system.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_syswm.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_assert.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_common.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_compare.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_crc32.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_font.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_fuzzer.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_harness.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_images.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_log.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_md5.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_test_random.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_thread.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_timer.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_touch.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_types.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_version.h
+        packages/sdl2.v140.2.0.4/build/native/include/SDL_video.h
+        SDL2_Standardproject/Assets/gfx/sdl2.bmp
+        SDL2_Standardproject/Assets/gfx/sdl_bro.bmp
+        SDL2_Standardproject/Assets/gfx/treasure.bmp
         SDL2_Standardproject/SDL/SDLBmp.cpp
         SDL2_Standardproject/SDL/SDLBmp.h
         SDL2_Standardproject/SDL/SDLError.cpp
@@ -23,4 +180,5 @@ set(SOURCE_FILES
         SDL2_Standardproject/Timer.cpp
         SDL2_Standardproject/Timer.h)
 
-add_executable(Oppgaven ${SOURCE_FILES})
+add_executable(snake-plusplus ${SOURCE_FILES})
+target_link_libraries(snake-plusplus ${SDL2_LIBRARY})
