@@ -48,10 +48,10 @@ RM = "/Users/Thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven"
+CMAKE_SOURCE_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Oppgaven
+# Target rules for targets named snake-plusplus
 
 # Build rule for target.
-Oppgaven: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Oppgaven
-.PHONY : Oppgaven
+snake-plusplus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 snake-plusplus
+.PHONY : snake-plusplus
 
 # fast build rule for target.
-Oppgaven/fast:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/build
-.PHONY : Oppgaven/fast
+snake-plusplus/fast:
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/build
+.PHONY : snake-plusplus/fast
 
 SDL2_Standardproject/GameManager.o: SDL2_Standardproject/GameManager.cpp.o
 
@@ -129,7 +129,7 @@ SDL2_Standardproject/GameManager.o: SDL2_Standardproject/GameManager.cpp.o
 
 # target to build an object file
 SDL2_Standardproject/GameManager.cpp.o:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.o
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o
 .PHONY : SDL2_Standardproject/GameManager.cpp.o
 
 SDL2_Standardproject/GameManager.i: SDL2_Standardproject/GameManager.cpp.i
@@ -138,7 +138,7 @@ SDL2_Standardproject/GameManager.i: SDL2_Standardproject/GameManager.cpp.i
 
 # target to preprocess a source file
 SDL2_Standardproject/GameManager.cpp.i:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.i
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.i
 .PHONY : SDL2_Standardproject/GameManager.cpp.i
 
 SDL2_Standardproject/GameManager.s: SDL2_Standardproject/GameManager.cpp.s
@@ -147,7 +147,7 @@ SDL2_Standardproject/GameManager.s: SDL2_Standardproject/GameManager.cpp.s
 
 # target to generate assembly for a file
 SDL2_Standardproject/GameManager.cpp.s:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/GameManager.cpp.s
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.s
 .PHONY : SDL2_Standardproject/GameManager.cpp.s
 
 SDL2_Standardproject/InputManager.o: SDL2_Standardproject/InputManager.cpp.o
@@ -156,7 +156,7 @@ SDL2_Standardproject/InputManager.o: SDL2_Standardproject/InputManager.cpp.o
 
 # target to build an object file
 SDL2_Standardproject/InputManager.cpp.o:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.o
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o
 .PHONY : SDL2_Standardproject/InputManager.cpp.o
 
 SDL2_Standardproject/InputManager.i: SDL2_Standardproject/InputManager.cpp.i
@@ -165,7 +165,7 @@ SDL2_Standardproject/InputManager.i: SDL2_Standardproject/InputManager.cpp.i
 
 # target to preprocess a source file
 SDL2_Standardproject/InputManager.cpp.i:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.i
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.i
 .PHONY : SDL2_Standardproject/InputManager.cpp.i
 
 SDL2_Standardproject/InputManager.s: SDL2_Standardproject/InputManager.cpp.s
@@ -174,7 +174,7 @@ SDL2_Standardproject/InputManager.s: SDL2_Standardproject/InputManager.cpp.s
 
 # target to generate assembly for a file
 SDL2_Standardproject/InputManager.cpp.s:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/InputManager.cpp.s
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.s
 .PHONY : SDL2_Standardproject/InputManager.cpp.s
 
 SDL2_Standardproject/Main.o: SDL2_Standardproject/Main.cpp.o
@@ -183,7 +183,7 @@ SDL2_Standardproject/Main.o: SDL2_Standardproject/Main.cpp.o
 
 # target to build an object file
 SDL2_Standardproject/Main.cpp.o:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o
 .PHONY : SDL2_Standardproject/Main.cpp.o
 
 SDL2_Standardproject/Main.i: SDL2_Standardproject/Main.cpp.i
@@ -192,7 +192,7 @@ SDL2_Standardproject/Main.i: SDL2_Standardproject/Main.cpp.i
 
 # target to preprocess a source file
 SDL2_Standardproject/Main.cpp.i:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.i
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.i
 .PHONY : SDL2_Standardproject/Main.cpp.i
 
 SDL2_Standardproject/Main.s: SDL2_Standardproject/Main.cpp.s
@@ -201,7 +201,7 @@ SDL2_Standardproject/Main.s: SDL2_Standardproject/Main.cpp.s
 
 # target to generate assembly for a file
 SDL2_Standardproject/Main.cpp.s:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.s
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.s
 .PHONY : SDL2_Standardproject/Main.cpp.s
 
 SDL2_Standardproject/SDL/SDLBmp.o: SDL2_Standardproject/SDL/SDLBmp.cpp.o
@@ -210,7 +210,7 @@ SDL2_Standardproject/SDL/SDLBmp.o: SDL2_Standardproject/SDL/SDLBmp.cpp.o
 
 # target to build an object file
 SDL2_Standardproject/SDL/SDLBmp.cpp.o:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o
 .PHONY : SDL2_Standardproject/SDL/SDLBmp.cpp.o
 
 SDL2_Standardproject/SDL/SDLBmp.i: SDL2_Standardproject/SDL/SDLBmp.cpp.i
@@ -219,7 +219,7 @@ SDL2_Standardproject/SDL/SDLBmp.i: SDL2_Standardproject/SDL/SDLBmp.cpp.i
 
 # target to preprocess a source file
 SDL2_Standardproject/SDL/SDLBmp.cpp.i:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i
 .PHONY : SDL2_Standardproject/SDL/SDLBmp.cpp.i
 
 SDL2_Standardproject/SDL/SDLBmp.s: SDL2_Standardproject/SDL/SDLBmp.cpp.s
@@ -228,7 +228,7 @@ SDL2_Standardproject/SDL/SDLBmp.s: SDL2_Standardproject/SDL/SDLBmp.cpp.s
 
 # target to generate assembly for a file
 SDL2_Standardproject/SDL/SDLBmp.cpp.s:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s
 .PHONY : SDL2_Standardproject/SDL/SDLBmp.cpp.s
 
 SDL2_Standardproject/SDL/SDLError.o: SDL2_Standardproject/SDL/SDLError.cpp.o
@@ -237,7 +237,7 @@ SDL2_Standardproject/SDL/SDLError.o: SDL2_Standardproject/SDL/SDLError.cpp.o
 
 # target to build an object file
 SDL2_Standardproject/SDL/SDLError.cpp.o:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.o
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o
 .PHONY : SDL2_Standardproject/SDL/SDLError.cpp.o
 
 SDL2_Standardproject/SDL/SDLError.i: SDL2_Standardproject/SDL/SDLError.cpp.i
@@ -246,7 +246,7 @@ SDL2_Standardproject/SDL/SDLError.i: SDL2_Standardproject/SDL/SDLError.cpp.i
 
 # target to preprocess a source file
 SDL2_Standardproject/SDL/SDLError.cpp.i:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.i
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.i
 .PHONY : SDL2_Standardproject/SDL/SDLError.cpp.i
 
 SDL2_Standardproject/SDL/SDLError.s: SDL2_Standardproject/SDL/SDLError.cpp.s
@@ -255,7 +255,7 @@ SDL2_Standardproject/SDL/SDLError.s: SDL2_Standardproject/SDL/SDLError.cpp.s
 
 # target to generate assembly for a file
 SDL2_Standardproject/SDL/SDLError.cpp.s:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLError.cpp.s
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.s
 .PHONY : SDL2_Standardproject/SDL/SDLError.cpp.s
 
 SDL2_Standardproject/SDL/SDLManager.o: SDL2_Standardproject/SDL/SDLManager.cpp.o
@@ -264,7 +264,7 @@ SDL2_Standardproject/SDL/SDLManager.o: SDL2_Standardproject/SDL/SDLManager.cpp.o
 
 # target to build an object file
 SDL2_Standardproject/SDL/SDLManager.cpp.o:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o
 .PHONY : SDL2_Standardproject/SDL/SDLManager.cpp.o
 
 SDL2_Standardproject/SDL/SDLManager.i: SDL2_Standardproject/SDL/SDLManager.cpp.i
@@ -273,7 +273,7 @@ SDL2_Standardproject/SDL/SDLManager.i: SDL2_Standardproject/SDL/SDLManager.cpp.i
 
 # target to preprocess a source file
 SDL2_Standardproject/SDL/SDLManager.cpp.i:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i
 .PHONY : SDL2_Standardproject/SDL/SDLManager.cpp.i
 
 SDL2_Standardproject/SDL/SDLManager.s: SDL2_Standardproject/SDL/SDLManager.cpp.s
@@ -282,7 +282,7 @@ SDL2_Standardproject/SDL/SDLManager.s: SDL2_Standardproject/SDL/SDLManager.cpp.s
 
 # target to generate assembly for a file
 SDL2_Standardproject/SDL/SDLManager.cpp.s:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s
 .PHONY : SDL2_Standardproject/SDL/SDLManager.cpp.s
 
 SDL2_Standardproject/Timer.o: SDL2_Standardproject/Timer.cpp.o
@@ -291,7 +291,7 @@ SDL2_Standardproject/Timer.o: SDL2_Standardproject/Timer.cpp.o
 
 # target to build an object file
 SDL2_Standardproject/Timer.cpp.o:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o
 .PHONY : SDL2_Standardproject/Timer.cpp.o
 
 SDL2_Standardproject/Timer.i: SDL2_Standardproject/Timer.cpp.i
@@ -300,7 +300,7 @@ SDL2_Standardproject/Timer.i: SDL2_Standardproject/Timer.cpp.i
 
 # target to preprocess a source file
 SDL2_Standardproject/Timer.cpp.i:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.i
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.i
 .PHONY : SDL2_Standardproject/Timer.cpp.i
 
 SDL2_Standardproject/Timer.s: SDL2_Standardproject/Timer.cpp.s
@@ -309,7 +309,7 @@ SDL2_Standardproject/Timer.s: SDL2_Standardproject/Timer.cpp.s
 
 # target to generate assembly for a file
 SDL2_Standardproject/Timer.cpp.s:
-	$(MAKE) -f CMakeFiles/Oppgaven.dir/build.make CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.s
+	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.s
 .PHONY : SDL2_Standardproject/Timer.cpp.s
 
 # Help Target
@@ -320,7 +320,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Oppgaven"
+	@echo "... snake-plusplus"
 	@echo "... SDL2_Standardproject/GameManager.o"
 	@echo "... SDL2_Standardproject/GameManager.i"
 	@echo "... SDL2_Standardproject/GameManager.s"

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven
+# Install script for directory: /Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
