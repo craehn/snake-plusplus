@@ -7,8 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Main.cpp.o"
   "CMakeFiles/Oppgaven.dir/SDL2_Standardproject/Timer.cpp.o"
   "Oppgaven.pdb"
-  "Oppgaven.exe"
-  "libOppgaven.dll.a"
+  "Oppgaven"
 )
 
 # Per-language clean rules from dependency scanning.

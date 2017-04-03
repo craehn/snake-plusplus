@@ -5,131 +5,597 @@
 		<Option title="Oppgaven"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug"/>
+				<Option working_dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug"/>
+				<Option working_dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Oppgaven">
-				<Option output="/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Oppgaven.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug"/>
+				<Option output="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/Oppgaven" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 Oppgaven"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 Oppgaven"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Oppgaven/fast">
-				<Option output="/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Oppgaven.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug"/>
+				<Option output="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug/Oppgaven" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 Oppgaven/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Clément/Downloads/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 Oppgaven/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400\ C++-programmering/Snake/Oppgaven/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/GameManager.cpp">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Assets/gfx/sdl2.bmp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/GameManager.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Assets/gfx/sdl_bro.bmp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/InputManager.cpp">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Assets/gfx/treasure.bmp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/InputManager.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/GameManager.cpp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/Main.cpp">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/GameManager.h">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLBmp.cpp">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/InputManager.cpp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLBmp.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/InputManager.h">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLError.cpp">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Main.cpp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLError.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLBmp.cpp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLManager.cpp">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLBmp.h">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLManager.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLError.cpp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLMath.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLError.h">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/SDL/SDLWindow.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLManager.cpp">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/Timer.cpp">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLManager.h">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/Timer.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLMath.h">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/SDL2_Standardproject/resource.h">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/SDL/SDLWindow.h">
 			<Option target="Oppgaven"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Clément/Downloads/Oppgaven/CMakeLists.txt">
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Timer.cpp">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/Timer.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/SDL2_Standardproject/resource.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_assert.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_atomic.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_audio.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_bits.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_blendmode.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_clipboard.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_config.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_cpuinfo.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_egl.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_endian.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_error.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_events.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_filesystem.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_gamecontroller.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_gesture.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_haptic.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_hints.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_joystick.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_keyboard.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_keycode.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_loadso.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_log.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_main.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_messagebox.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_mouse.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_mutex.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_name.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengl.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengl_glext.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengles.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengles2.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengles2_gl2.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengles2_gl2ext.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengles2_gl2platform.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_opengles2_khrplatform.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_pixels.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_platform.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_power.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_quit.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_rect.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_render.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_revision.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_rwops.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_scancode.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_shape.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_stdinc.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_surface.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_system.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_syswm.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_assert.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_common.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_compare.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_crc32.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_font.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_fuzzer.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_harness.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_images.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_log.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_md5.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_test_random.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_thread.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_timer.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_touch.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_types.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_version.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/SDL_video.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/begin_code.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.2.0.5/build/native/include/close_code.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_assert.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_atomic.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_audio.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_bits.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_blendmode.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_clipboard.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_android.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_iphoneos.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_macosx.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_minimal.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_pandora.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_psp.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_windows.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_winrt.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_config_wiz.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_copying.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_cpuinfo.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_egl.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_endian.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_error.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_events.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_filesystem.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_gamecontroller.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_gesture.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_haptic.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_hints.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_joystick.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_keyboard.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_keycode.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_loadso.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_log.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_main.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_messagebox.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_mouse.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_mutex.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_name.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengl.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengl_glext.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_gl2.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_gl2ext.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_gl2platform.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_opengles2_khrplatform.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_pixels.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_platform.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_power.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_quit.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_rect.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_render.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_revision.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_rwops.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_scancode.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_shape.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_stdinc.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_surface.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_system.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_syswm.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_assert.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_common.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_compare.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_crc32.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_font.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_fuzzer.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_harness.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_images.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_log.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_md5.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_test_random.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_thread.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_timer.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_touch.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_types.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_version.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/SDL_video.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/begin_code.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/packages/sdl2.v140.2.0.4/build/native/include/close_code.h">
+			<Option target="Oppgaven"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/Snake/Oppgaven/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
