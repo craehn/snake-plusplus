@@ -42,8 +42,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>$(PG4400_SDL2_PATH)\lib\x86;$(LibraryPath)</LibraryPath>
-    <IncludePath>$(PG4400_SDL2_PATH)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Westerdals\V2017\PG4400_C++Programmering\Visual Studio\Forelesning 8\Oppgaven\packages\sdl2.2.0.5\build\native\lib\Win32\dynamic;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -85,23 +84,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameData.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Point2D.cpp" />
     <ClCompile Include="SDL\SDLBmp.cpp" />
     <ClCompile Include="SDL\SDLError.cpp" />
     <ClCompile Include="SDL\SDLManager.cpp" />
+    <ClCompile Include="Snake.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameData.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Point2D.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="SDL\SDLBmp.h" />
     <ClInclude Include="SDL\SDLError.h" />
     <ClInclude Include="SDL\SDLManager.h" />
     <ClInclude Include="SDL\SDLMath.h" />
     <ClInclude Include="SDL\SDLWindow.h" />
+    <ClInclude Include="Snake.h" />
     <ClInclude Include="Timer.h" />
   </ItemGroup>
   <ItemGroup>

@@ -24,6 +24,13 @@ public:
 
 	/* Adds the image to the master window */
 	void draw();
+	void draw (int rotation);
+
+	/* Getters for image height and width*/
+	int getWidth () const;
+	int getHeight () const;
+
+
 
 	/* "home brewed" float coordinates, SDL2 uses ints
 		which is a bit too unpresice. */

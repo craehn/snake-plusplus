@@ -1,7 +1,8 @@
 /*
  * @file: SDLBmp.cpp
  * @author: Stig M. Halvorsen <halsti@nith.no>
- * @version: 1.0.0 <11.02.2013>
+ * @author: Torstein Alvern 
+ * @version: 1.0.1 <20.03.2017>
  *
  * @description: A class that makes it easy to load,
  *				 display and work with images.
@@ -68,4 +69,45 @@ void SDLBmp::draw()
 
 	// Add object to renderer/window
 	SDL_RenderCopy(m_renderer, m_texture, NULL, &m_rect);
+}
+
+void SDLBmp::draw(int rotation)
+{
+	double angle;
+
+	switch (rotation)
+	{
+		case 0:
+			angle = -90;
+			break;
+		case 1:
+			angle = 90;
+			break;
+		case 2:
+			angle = 0;
+			break;
+		case 3:
+			angle = 180;
+			break;
+		default: 
+			angle = 0; 
+			break;
+	}
+
+
+	m_rect.x = static_cast<int>(x); // cast our floats to ints
+	m_rect.y = static_cast<int>(y);
+
+
+	SDL_RenderCopyEx (m_renderer, m_texture, nullptr, &m_rect, angle, nullptr, SDL_FLIP_NONE);
+}
+
+int SDLBmp::getWidth() const
+{
+	return m_rect.w;
+}
+
+int SDLBmp::getHeight() const
+{
+	return m_rect.h;
 }

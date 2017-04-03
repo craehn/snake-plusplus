@@ -10,6 +10,11 @@
 #define GAMEMANAGER_H
 
 #include "SDL/SDLManager.h"
+#include "SDL/SDLBmp.h"
+#include "InputManager.h"
+#include "Timer.h"
+#include "GameObject.h"
+#include "Snake.h"
 
 class GameManager
 {
@@ -27,9 +32,16 @@ private:
 	GameManager();								// Hidden constructor
 	GameManager(const GameManager&);			// Hidden copy constructor
 	GameManager& operator=(const GameManager&); // Hidden assign operator
-	
+	void CheckInput (int* direction);
+	void BorderCollideCheck(GameObject* player, SDLBmp* backround);
+	void AutoCannibalismCheck (Snake* player);
+	Point2D randomPlacement(GameObject* image, int boardWidth, int boardHeight);
+	static bool CrashedWithObjectCheck (GameObject* player, GameObject* object);
+
+	bool isSlithering = true;
 	unsigned int m_window; // pointer to main window
 	float m_lastRender; // Time in seconds since last render
+
 };
 
 #endif
