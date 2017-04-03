@@ -1,6 +1,6 @@
 Readme file for Snake++ project.
 
-# Snake written in C++: Snake++
+# Snake written in C++
 
 Authors: 
 - Torstein Alvern
