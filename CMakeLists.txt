@@ -33,7 +33,18 @@ set(SOURCE_FILES
         SDL2_Standardproject/Main.cpp
         SDL2_Standardproject/resource.h
         SDL2_Standardproject/Timer.cpp
-        SDL2_Standardproject/Timer.h)
+        SDL2_Standardproject/Timer.h
+        SDL2_Standardproject/GameData.h
+        SDL2_Standardproject/GameData.cpp
+        SDL2_Standardproject/Point2D.h
+        SDL2_Standardproject/Point2D.cpp
+        SDL2_Standardproject/GameObject.h
+        SDL2_Standardproject/GameObject.cpp
+        SDL2_Standardproject/Snake.h
+        SDL2_Standardproject/Snake.cpp
+
+
+        )
 
 add_executable(snake-plusplus ${SOURCE_FILES})
 target_link_libraries(snake-plusplus ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARIES})
