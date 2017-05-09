@@ -4,19 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/GameManager.cpp" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o"
-  "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/InputManager.cpp" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o"
-  "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Main.cpp" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o"
-  "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o"
-  "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o"
-  "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o"
-  "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Timer.cpp" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o"
+  "/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/GameManager.cpp" "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o"
+  "/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/InputManager.cpp" "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o"
+  "/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Main.cpp" "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o"
+  "/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp" "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o"
+  "/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp" "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o"
+  "/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp" "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o"
+  "/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Timer.cpp" "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include/SDL2"
+  "/usr/include/SDL2"
+  "../SDL2_Standardproject/source/headers"
   )
 
 # Targets to which this target links.

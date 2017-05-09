@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/Thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.103/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = /home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/Thomas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.103/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = /home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus"
+CMAKE_SOURCE_DIR = /home/clement/ClionProjects/snake-plusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/clement/ClionProjects/snake-plusplus/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/snake-plusplus.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/snake-plusplus.dir/flags.make
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o: CMakeFiles/snake-plusplus.dir/flags.make
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o: ../SDL2_Standardproject/SDL/SDLBmp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o -c /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp" > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp" -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLBmp.cpp -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o.provides.bui
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o: CMakeFiles/snake-plusplus.dir/flags.make
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o: ../SDL2_Standardproject/SDL/SDLError.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o -c /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp" > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.i
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp" -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLError.cpp -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.s
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o.provides.b
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o: CMakeFiles/snake-plusplus.dir/flags.make
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o: ../SDL2_Standardproject/SDL/SDLManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o -c /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp" > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp" -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/SDL/SDLManager.cpp -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o.provides
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: CMakeFiles/snake-plusplus.dir/flags.make
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/GameManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/GameManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o -c /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/GameManager.cpp
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/GameManager.cpp" > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/GameManager.cpp > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.i
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/GameManager.cpp" -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/GameManager.cpp -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.s
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o.provides.bu
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o: CMakeFiles/snake-plusplus.dir/flags.make
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o: ../SDL2_Standardproject/InputManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/InputManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o -c /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/InputManager.cpp
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/InputManager.cpp" > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/InputManager.cpp > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.i
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/InputManager.cpp" -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/InputManager.cpp -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.s
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o.provides.b
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: CMakeFiles/snake-plusplus.dir/flags.make
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o -c /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Main.cpp
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Main.cpp" > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Main.cpp > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.i
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Main.cpp" -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Main.cpp -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.s
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o.provides.build: CM
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o: CMakeFiles/snake-plusplus.dir/flags.make
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o: ../SDL2_Standardproject/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o -c "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Timer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o -c /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Timer.cpp
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Timer.cpp" > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Timer.cpp > CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.i
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/SDL2_Standardproject/Timer.cpp" -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Timer.cpp -o CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.s
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o.requires:
 
@@ -247,9 +247,10 @@ snake-plusplus: CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o
 snake-plusplus: CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o
 snake-plusplus: CMakeFiles/snake-plusplus.dir/build.make
 snake-plusplus: /usr/local/lib/libSDL2main.a
-snake-plusplus: /usr/local/lib/libSDL2.dylib
+snake-plusplus: /usr/local/lib/libSDL2.so
+snake-plusplus: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 snake-plusplus: CMakeFiles/snake-plusplus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable snake-plusplus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable snake-plusplus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snake-plusplus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -272,6 +273,6 @@ CMakeFiles/snake-plusplus.dir/clean:
 .PHONY : CMakeFiles/snake-plusplus.dir/clean
 
 CMakeFiles/snake-plusplus.dir/depend:
-	cd "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug" "/Users/Thomas/MEGA/Westerdals/Spillprogrammering/2016–2017/PG4400 C++-programmering/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/clement/ClionProjects/snake-plusplus/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/clement/ClionProjects/snake-plusplus /home/clement/ClionProjects/snake-plusplus /home/clement/ClionProjects/snake-plusplus/cmake-build-debug /home/clement/ClionProjects/snake-plusplus/cmake-build-debug /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles/snake-plusplus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/snake-plusplus.dir/depend
 

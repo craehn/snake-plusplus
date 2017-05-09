@@ -3,11 +3,14 @@
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/GameManager.cpp
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/GameManager.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/GameObject.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/InputManager.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/Point2D.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/SDL/SDLBmp.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/SDL/SDLError.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/SDL/SDLManager.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/SDL/SDLWindow.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/Snake.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: ../SDL2_Standardproject/Timer.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: /usr/local/include/SDL2/SDL.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o: /usr/local/include/SDL2/SDL_assert.h
@@ -100,10 +103,16 @@ CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o: /usr/loca
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o: /usr/local/include/SDL2/close_code.h
 
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/GameManager.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/GameObject.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/InputManager.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/Main.cpp
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/Point2D.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/SDL/SDLBmp.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/SDL/SDLError.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/SDL/SDLManager.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/SDL/SDLWindow.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/Snake.h
+CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: ../SDL2_Standardproject/Timer.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: /usr/local/include/SDL2/SDL.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: /usr/local/include/SDL2/SDL_assert.h
 CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o: /usr/local/include/SDL2/SDL_atomic.h
