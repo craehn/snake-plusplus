@@ -6,7 +6,7 @@
  * @description: A custom exception specializing in SDL errors.
  */
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "SDLError.h"
 
 /* Creates an exception with the default SDL_GetError() as message */

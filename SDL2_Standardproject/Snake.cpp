@@ -173,3 +173,7 @@ void Snake::drawSnake()
 	getHead ()->getImage ()->draw (getHead ()->getRotation ());
 
 }
+
+Snake::Snake(int snakeLength) {
+	length = snakeLength;
+}

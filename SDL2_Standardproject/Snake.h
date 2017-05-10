@@ -7,6 +7,9 @@ class Snake : std::list<GameObject>
 {
 public:
 	Snake (GameObject* headPart, GameObject* bodyPart, int startingLength);
+
+	Snake(int length);
+
 	void increaseLength ();
 	int getLength ();
 	GameObject* getHead ();

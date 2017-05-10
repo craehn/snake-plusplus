@@ -8,6 +8,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../SDL2_Standardproject/CMakeLists.txt"
+  "../SnakePlusPlusTests/CMakeLists.txt"
+  "../SnakePlusPlusTests/basic_tests/CMakeLists.txt"
+  "../SnakePlusPlusTests/lib/googletest/CMakeLists.txt"
+  "../SnakePlusPlusTests/lib/googletest/cmake/internal_utils.cmake"
   "CMakeFiles/3.7.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.7.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.1/CMakeSystem.cmake"
@@ -32,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/clement/Programs/clion-2016.3.4/bin/cmake/share/cmake-3.7/Modules/Compiler/GNU.cmake"
   "/home/clement/Programs/clion-2016.3.4/bin/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake"
   "/home/clement/Programs/clion-2016.3.4/bin/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake"
+  "/home/clement/Programs/clion-2016.3.4/bin/cmake/share/cmake-3.7/Modules/FindPythonInterp.cmake"
   "/home/clement/Programs/clion-2016.3.4/bin/cmake/share/cmake-3.7/Modules/FindThreads.cmake"
   "/home/clement/Programs/clion-2016.3.4/bin/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU-C.cmake"
   "/home/clement/Programs/clion-2016.3.4/bin/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -50,9 +56,17 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SDL2_Standardproject/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SnakePlusPlusTests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SnakePlusPlusTests/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SnakePlusPlusTests/basic_tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/snake-plusplus.dir/DependInfo.cmake"
+  "CMakeFiles/snake-plusplus_run.dir/DependInfo.cmake"
+  "SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/DependInfo.cmake"
+  "SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/DependInfo.cmake"
   )

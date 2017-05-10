@@ -56,16 +56,49 @@ CMAKE_BINARY_DIR = /home/clement/ClionProjects/snake-plusplus/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target install/strip
+install/strip/fast: install/strip
 
-.PHONY : edit_cache/fast
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -77,6 +110,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,206 +155,96 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named snake-plusplus
+# Target rules for targets named snake-plusplus_run
 
 # Build rule for target.
-snake-plusplus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 snake-plusplus
-.PHONY : snake-plusplus
+snake-plusplus_run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 snake-plusplus_run
+.PHONY : snake-plusplus_run
 
 # fast build rule for target.
-snake-plusplus/fast:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/build
-.PHONY : snake-plusplus/fast
+snake-plusplus_run/fast:
+	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/build
+.PHONY : snake-plusplus_run/fast
 
-SDL2_Standardproject/GameManager.o: SDL2_Standardproject/GameManager.cpp.o
+#=============================================================================
+# Target rules for targets named SDL2_Standardproject
 
-.PHONY : SDL2_Standardproject/GameManager.o
+# Build rule for target.
+SDL2_Standardproject: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SDL2_Standardproject
+.PHONY : SDL2_Standardproject
 
-# target to build an object file
-SDL2_Standardproject/GameManager.cpp.o:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.o
-.PHONY : SDL2_Standardproject/GameManager.cpp.o
+# fast build rule for target.
+SDL2_Standardproject/fast:
+	$(MAKE) -f SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build.make SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build
+.PHONY : SDL2_Standardproject/fast
 
-SDL2_Standardproject/GameManager.i: SDL2_Standardproject/GameManager.cpp.i
+#=============================================================================
+# Target rules for targets named gtest_main
 
-.PHONY : SDL2_Standardproject/GameManager.i
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
 
-# target to preprocess a source file
-SDL2_Standardproject/GameManager.cpp.i:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.i
-.PHONY : SDL2_Standardproject/GameManager.cpp.i
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
-SDL2_Standardproject/GameManager.s: SDL2_Standardproject/GameManager.cpp.s
+#=============================================================================
+# Target rules for targets named gtest
 
-.PHONY : SDL2_Standardproject/GameManager.s
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
 
-# target to generate assembly for a file
-SDL2_Standardproject/GameManager.cpp.s:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/GameManager.cpp.s
-.PHONY : SDL2_Standardproject/GameManager.cpp.s
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
-SDL2_Standardproject/InputManager.o: SDL2_Standardproject/InputManager.cpp.o
+#=============================================================================
+# Target rules for targets named runSnakePlusPlusTests
 
-.PHONY : SDL2_Standardproject/InputManager.o
+# Build rule for target.
+runSnakePlusPlusTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runSnakePlusPlusTests
+.PHONY : runSnakePlusPlusTests
 
-# target to build an object file
-SDL2_Standardproject/InputManager.cpp.o:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.o
-.PHONY : SDL2_Standardproject/InputManager.cpp.o
+# fast build rule for target.
+runSnakePlusPlusTests/fast:
+	$(MAKE) -f SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build.make SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build
+.PHONY : runSnakePlusPlusTests/fast
 
-SDL2_Standardproject/InputManager.i: SDL2_Standardproject/InputManager.cpp.i
+Main.o: Main.cpp.o
 
-.PHONY : SDL2_Standardproject/InputManager.i
-
-# target to preprocess a source file
-SDL2_Standardproject/InputManager.cpp.i:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.i
-.PHONY : SDL2_Standardproject/InputManager.cpp.i
-
-SDL2_Standardproject/InputManager.s: SDL2_Standardproject/InputManager.cpp.s
-
-.PHONY : SDL2_Standardproject/InputManager.s
-
-# target to generate assembly for a file
-SDL2_Standardproject/InputManager.cpp.s:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/InputManager.cpp.s
-.PHONY : SDL2_Standardproject/InputManager.cpp.s
-
-SDL2_Standardproject/Main.o: SDL2_Standardproject/Main.cpp.o
-
-.PHONY : SDL2_Standardproject/Main.o
+.PHONY : Main.o
 
 # target to build an object file
-SDL2_Standardproject/Main.cpp.o:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.o
-.PHONY : SDL2_Standardproject/Main.cpp.o
+Main.cpp.o:
+	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/Main.cpp.o
+.PHONY : Main.cpp.o
 
-SDL2_Standardproject/Main.i: SDL2_Standardproject/Main.cpp.i
+Main.i: Main.cpp.i
 
-.PHONY : SDL2_Standardproject/Main.i
-
-# target to preprocess a source file
-SDL2_Standardproject/Main.cpp.i:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.i
-.PHONY : SDL2_Standardproject/Main.cpp.i
-
-SDL2_Standardproject/Main.s: SDL2_Standardproject/Main.cpp.s
-
-.PHONY : SDL2_Standardproject/Main.s
-
-# target to generate assembly for a file
-SDL2_Standardproject/Main.cpp.s:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Main.cpp.s
-.PHONY : SDL2_Standardproject/Main.cpp.s
-
-SDL2_Standardproject/SDL/SDLBmp.o: SDL2_Standardproject/SDL/SDLBmp.cpp.o
-
-.PHONY : SDL2_Standardproject/SDL/SDLBmp.o
-
-# target to build an object file
-SDL2_Standardproject/SDL/SDLBmp.cpp.o:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.o
-.PHONY : SDL2_Standardproject/SDL/SDLBmp.cpp.o
-
-SDL2_Standardproject/SDL/SDLBmp.i: SDL2_Standardproject/SDL/SDLBmp.cpp.i
-
-.PHONY : SDL2_Standardproject/SDL/SDLBmp.i
+.PHONY : Main.i
 
 # target to preprocess a source file
-SDL2_Standardproject/SDL/SDLBmp.cpp.i:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.i
-.PHONY : SDL2_Standardproject/SDL/SDLBmp.cpp.i
+Main.cpp.i:
+	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/Main.cpp.i
+.PHONY : Main.cpp.i
 
-SDL2_Standardproject/SDL/SDLBmp.s: SDL2_Standardproject/SDL/SDLBmp.cpp.s
+Main.s: Main.cpp.s
 
-.PHONY : SDL2_Standardproject/SDL/SDLBmp.s
-
-# target to generate assembly for a file
-SDL2_Standardproject/SDL/SDLBmp.cpp.s:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLBmp.cpp.s
-.PHONY : SDL2_Standardproject/SDL/SDLBmp.cpp.s
-
-SDL2_Standardproject/SDL/SDLError.o: SDL2_Standardproject/SDL/SDLError.cpp.o
-
-.PHONY : SDL2_Standardproject/SDL/SDLError.o
-
-# target to build an object file
-SDL2_Standardproject/SDL/SDLError.cpp.o:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.o
-.PHONY : SDL2_Standardproject/SDL/SDLError.cpp.o
-
-SDL2_Standardproject/SDL/SDLError.i: SDL2_Standardproject/SDL/SDLError.cpp.i
-
-.PHONY : SDL2_Standardproject/SDL/SDLError.i
-
-# target to preprocess a source file
-SDL2_Standardproject/SDL/SDLError.cpp.i:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.i
-.PHONY : SDL2_Standardproject/SDL/SDLError.cpp.i
-
-SDL2_Standardproject/SDL/SDLError.s: SDL2_Standardproject/SDL/SDLError.cpp.s
-
-.PHONY : SDL2_Standardproject/SDL/SDLError.s
+.PHONY : Main.s
 
 # target to generate assembly for a file
-SDL2_Standardproject/SDL/SDLError.cpp.s:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLError.cpp.s
-.PHONY : SDL2_Standardproject/SDL/SDLError.cpp.s
-
-SDL2_Standardproject/SDL/SDLManager.o: SDL2_Standardproject/SDL/SDLManager.cpp.o
-
-.PHONY : SDL2_Standardproject/SDL/SDLManager.o
-
-# target to build an object file
-SDL2_Standardproject/SDL/SDLManager.cpp.o:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.o
-.PHONY : SDL2_Standardproject/SDL/SDLManager.cpp.o
-
-SDL2_Standardproject/SDL/SDLManager.i: SDL2_Standardproject/SDL/SDLManager.cpp.i
-
-.PHONY : SDL2_Standardproject/SDL/SDLManager.i
-
-# target to preprocess a source file
-SDL2_Standardproject/SDL/SDLManager.cpp.i:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.i
-.PHONY : SDL2_Standardproject/SDL/SDLManager.cpp.i
-
-SDL2_Standardproject/SDL/SDLManager.s: SDL2_Standardproject/SDL/SDLManager.cpp.s
-
-.PHONY : SDL2_Standardproject/SDL/SDLManager.s
-
-# target to generate assembly for a file
-SDL2_Standardproject/SDL/SDLManager.cpp.s:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/SDL/SDLManager.cpp.s
-.PHONY : SDL2_Standardproject/SDL/SDLManager.cpp.s
-
-SDL2_Standardproject/Timer.o: SDL2_Standardproject/Timer.cpp.o
-
-.PHONY : SDL2_Standardproject/Timer.o
-
-# target to build an object file
-SDL2_Standardproject/Timer.cpp.o:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.o
-.PHONY : SDL2_Standardproject/Timer.cpp.o
-
-SDL2_Standardproject/Timer.i: SDL2_Standardproject/Timer.cpp.i
-
-.PHONY : SDL2_Standardproject/Timer.i
-
-# target to preprocess a source file
-SDL2_Standardproject/Timer.cpp.i:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.i
-.PHONY : SDL2_Standardproject/Timer.cpp.i
-
-SDL2_Standardproject/Timer.s: SDL2_Standardproject/Timer.cpp.s
-
-.PHONY : SDL2_Standardproject/Timer.s
-
-# target to generate assembly for a file
-SDL2_Standardproject/Timer.cpp.s:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/Timer.cpp.s
-.PHONY : SDL2_Standardproject/Timer.cpp.s
+Main.cpp.s:
+	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/Main.cpp.s
+.PHONY : Main.cpp.s
 
 # Help Target
 help:
@@ -318,30 +252,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... snake-plusplus"
-	@echo "... SDL2_Standardproject/GameManager.o"
-	@echo "... SDL2_Standardproject/GameManager.i"
-	@echo "... SDL2_Standardproject/GameManager.s"
-	@echo "... SDL2_Standardproject/InputManager.o"
-	@echo "... SDL2_Standardproject/InputManager.i"
-	@echo "... SDL2_Standardproject/InputManager.s"
-	@echo "... SDL2_Standardproject/Main.o"
-	@echo "... SDL2_Standardproject/Main.i"
-	@echo "... SDL2_Standardproject/Main.s"
-	@echo "... SDL2_Standardproject/SDL/SDLBmp.o"
-	@echo "... SDL2_Standardproject/SDL/SDLBmp.i"
-	@echo "... SDL2_Standardproject/SDL/SDLBmp.s"
-	@echo "... SDL2_Standardproject/SDL/SDLError.o"
-	@echo "... SDL2_Standardproject/SDL/SDLError.i"
-	@echo "... SDL2_Standardproject/SDL/SDLError.s"
-	@echo "... SDL2_Standardproject/SDL/SDLManager.o"
-	@echo "... SDL2_Standardproject/SDL/SDLManager.i"
-	@echo "... SDL2_Standardproject/SDL/SDLManager.s"
-	@echo "... SDL2_Standardproject/Timer.o"
-	@echo "... SDL2_Standardproject/Timer.i"
-	@echo "... SDL2_Standardproject/Timer.s"
+	@echo "... edit_cache"
+	@echo "... snake-plusplus_run"
+	@echo "... SDL2_Standardproject"
+	@echo "... gtest_main"
+	@echo "... gtest"
+	@echo "... runSnakePlusPlusTests"
+	@echo "... Main.o"
+	@echo "... Main.i"
+	@echo "... Main.s"
 .PHONY : help
 
 

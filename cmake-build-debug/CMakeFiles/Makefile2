@@ -60,39 +60,266 @@ CMAKE_SOURCE_DIR = /home/clement/ClionProjects/snake-plusplus
 CMAKE_BINARY_DIR = /home/clement/ClionProjects/snake-plusplus/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/snake-plusplus.dir
+# Target rules for target CMakeFiles/snake-plusplus_run.dir
 
 # All Build rule for target.
-CMakeFiles/snake-plusplus.dir/all:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/depend
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target snake-plusplus"
-.PHONY : CMakeFiles/snake-plusplus.dir/all
+CMakeFiles/snake-plusplus_run.dir/all: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
+	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/depend
+	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target snake-plusplus_run"
+.PHONY : CMakeFiles/snake-plusplus_run.dir/all
 
 # Include target in all.
-all: CMakeFiles/snake-plusplus.dir/all
+all: CMakeFiles/snake-plusplus_run.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/snake-plusplus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/snake-plusplus.dir/all
+CMakeFiles/snake-plusplus_run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/snake-plusplus_run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/snake-plusplus.dir/rule
+.PHONY : CMakeFiles/snake-plusplus_run.dir/rule
 
 # Convenience name for target.
-snake-plusplus: CMakeFiles/snake-plusplus.dir/rule
+snake-plusplus_run: CMakeFiles/snake-plusplus_run.dir/rule
 
-.PHONY : snake-plusplus
-
-# clean rule for target.
-CMakeFiles/snake-plusplus.dir/clean:
-	$(MAKE) -f CMakeFiles/snake-plusplus.dir/build.make CMakeFiles/snake-plusplus.dir/clean
-.PHONY : CMakeFiles/snake-plusplus.dir/clean
+.PHONY : snake-plusplus_run
 
 # clean rule for target.
-clean: CMakeFiles/snake-plusplus.dir/clean
+CMakeFiles/snake-plusplus_run.dir/clean:
+	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/clean
+.PHONY : CMakeFiles/snake-plusplus_run.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/snake-plusplus_run.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory SDL2_Standardproject
+
+# Convenience name for "all" pass in the directory.
+SDL2_Standardproject/all: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
+
+.PHONY : SDL2_Standardproject/all
+
+# Convenience name for "clean" pass in the directory.
+SDL2_Standardproject/clean: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/clean
+
+.PHONY : SDL2_Standardproject/clean
+
+# Convenience name for "preinstall" pass in the directory.
+SDL2_Standardproject/preinstall:
+
+.PHONY : SDL2_Standardproject/preinstall
+
+#=============================================================================
+# Target rules for target SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir
+
+# All Build rule for target.
+SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all:
+	$(MAKE) -f SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build.make SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/depend
+	$(MAKE) -f SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build.make SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target SDL2_Standardproject"
+.PHONY : SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
+
+# Include target in all.
+all: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/rule
+
+# Convenience name for target.
+SDL2_Standardproject: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/rule
+
+.PHONY : SDL2_Standardproject
+
+# clean rule for target.
+SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/clean:
+	$(MAKE) -f SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build.make SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/clean
+.PHONY : SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/clean
+
+# clean rule for target.
+clean: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory SnakePlusPlusTests
+
+# Convenience name for "all" pass in the directory.
+SnakePlusPlusTests/all: SnakePlusPlusTests/lib/googletest/all
+SnakePlusPlusTests/all: SnakePlusPlusTests/basic_tests/all
+
+.PHONY : SnakePlusPlusTests/all
+
+# Convenience name for "clean" pass in the directory.
+SnakePlusPlusTests/clean: SnakePlusPlusTests/lib/googletest/clean
+SnakePlusPlusTests/clean: SnakePlusPlusTests/basic_tests/clean
+
+.PHONY : SnakePlusPlusTests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+SnakePlusPlusTests/preinstall: SnakePlusPlusTests/lib/googletest/preinstall
+SnakePlusPlusTests/preinstall: SnakePlusPlusTests/basic_tests/preinstall
+
+.PHONY : SnakePlusPlusTests/preinstall
+
+#=============================================================================
+# Directory level rules for directory SnakePlusPlusTests/lib/googletest
+
+# Convenience name for "all" pass in the directory.
+SnakePlusPlusTests/lib/googletest/all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
+SnakePlusPlusTests/lib/googletest/all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
+
+.PHONY : SnakePlusPlusTests/lib/googletest/all
+
+# Convenience name for "clean" pass in the directory.
+SnakePlusPlusTests/lib/googletest/clean: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/clean
+SnakePlusPlusTests/lib/googletest/clean: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/clean
+
+.PHONY : SnakePlusPlusTests/lib/googletest/clean
+
+# Convenience name for "preinstall" pass in the directory.
+SnakePlusPlusTests/lib/googletest/preinstall:
+
+.PHONY : SnakePlusPlusTests/lib/googletest/preinstall
+
+#=============================================================================
+# Target rules for target SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir
+
+# All Build rule for target.
+SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/depend
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target gtest_main"
+.PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
+
+# Include target in all.
+all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+.PHONY : gtest_main
+
+# clean rule for target.
+SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/clean:
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/clean
+.PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/clean
+
+# clean rule for target.
+clean: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all:
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/depend
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target gtest"
+.PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
+
+# Include target in all.
+all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# clean rule for target.
+SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/clean:
+	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/clean
+.PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/clean
+
+# clean rule for target.
+clean: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory SnakePlusPlusTests/basic_tests
+
+# Convenience name for "all" pass in the directory.
+SnakePlusPlusTests/basic_tests/all: SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all
+
+.PHONY : SnakePlusPlusTests/basic_tests/all
+
+# Convenience name for "clean" pass in the directory.
+SnakePlusPlusTests/basic_tests/clean: SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/clean
+
+.PHONY : SnakePlusPlusTests/basic_tests/clean
+
+# Convenience name for "preinstall" pass in the directory.
+SnakePlusPlusTests/basic_tests/preinstall:
+
+.PHONY : SnakePlusPlusTests/basic_tests/preinstall
+
+#=============================================================================
+# Target rules for target SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir
+
+# All Build rule for target.
+SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
+SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
+SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build.make SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/depend
+	$(MAKE) -f SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build.make SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target runSnakePlusPlusTests"
+.PHONY : SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all
+
+# Include target in all.
+all: SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 18
+	$(MAKE) -f CMakeFiles/Makefile2 SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/rule
+
+# Convenience name for target.
+runSnakePlusPlusTests: SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/rule
+
+.PHONY : runSnakePlusPlusTests
+
+# clean rule for target.
+SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/clean:
+	$(MAKE) -f SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build.make SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/clean
+.PHONY : SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/clean
+
+# clean rule for target.
+clean: SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/clean
 
 .PHONY : clean
 
