@@ -5,7 +5,7 @@
 		<Option title="snake-plusplus"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\SDL2_Standardproject\;CMake Files\SnakePlusPlusTests\;CMake Files\SnakePlusPlusTests\lib\;CMake Files\SnakePlusPlusTests\lib\googletest\;CMake Files\SnakePlusPlusTests\lib\googletest\cmake\;CMake Files\SnakePlusPlusTests\basic_tests\;CMake Files\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SDL2_Standardproject\;CMake Files\cmake\;CMake Files\SnakePlusPlusTests\;CMake Files\SnakePlusPlusTests\lib\;CMake Files\SnakePlusPlusTests\lib\googletest\;CMake Files\SnakePlusPlusTests\lib\googletest\cmake\;CMake Files\SnakePlusPlusTests\basic_tests\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/clement/ClionProjects/snake-plusplus/cmake-build-debug"/>
@@ -85,8 +85,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject"/>
-					<Add directory="/usr/local/include/SDL2"/>
-					<Add directory="/usr/include/SDL2"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -111,8 +109,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject"/>
-					<Add directory="/usr/local/include/SDL2"/>
-					<Add directory="/usr/include/SDL2"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -137,6 +133,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/include/SDL2"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -161,6 +159,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/include/SDL2"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -337,6 +337,24 @@
 		<Unit filename="/home/clement/ClionProjects/snake-plusplus/Main.cpp">
 			<Option target="snake-plusplus_run"/>
 		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Assets/gfx/Apple_v1.bmp">
+			<Option target="SDL2_Standardproject"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Assets/gfx/SnakeBody_v1.bmp">
+			<Option target="SDL2_Standardproject"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Assets/gfx/SnakeHead_v1.bmp">
+			<Option target="SDL2_Standardproject"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Assets/gfx/sdl2.bmp">
+			<Option target="SDL2_Standardproject"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Assets/gfx/sdl_bro.bmp">
+			<Option target="SDL2_Standardproject"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/Assets/gfx/treasure.bmp">
+			<Option target="SDL2_Standardproject"/>
+		</Unit>
 		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/GameData.cpp">
 			<Option target="SDL2_Standardproject"/>
 		</Unit>
@@ -427,35 +445,14 @@
 		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SDL2_Standardproject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\SDL2_Standardproject\"/>
 		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\"/>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\"/>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\"/>
-		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\"/>
-		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\"/>
-		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/basic_tests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\basic_tests\"/>
-		</Unit>
-		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/basic_tests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\SnakePlusPlusTests\basic_tests\"/>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/cmake/FindSDL2_ttf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 		<Unit filename="/home/clement/ClionProjects/snake-plusplus/cmake/FindSDL2.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
@@ -465,6 +462,36 @@
 		</Unit>
 		<Unit filename="/home/clement/ClionProjects/snake-plusplus/cmake/FindSDL2_ttf.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\basic_tests\"/>
+		</Unit>
+		<Unit filename="/home/clement/ClionProjects/snake-plusplus/SnakePlusPlusTests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakePlusPlusTests\basic_tests\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

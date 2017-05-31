@@ -31,19 +31,19 @@ void GameManager::play()
 	srand (time (nullptr));
 
 	// Load bitmaps
-	SDLBmp backround("Assets/gfx/sdl2.bmp");
+	SDLBmp background("Assets/gfx/sdl2.bmp");
 	SDLBmp playerHeadImage("Assets/gfx/SnakeHead_v1.bmp");
 	SDLBmp playerBodyImage("Assets/gfx/SnakeBody_v1.bmp");
 	SDLBmp appleImage ("Assets/gfx/apple_v1.bmp");
 
-	Point2D playerStartingPosition ((backround.getWidth () / 2 - playerHeadImage.getWidth () / 2), (backround.getHeight () / 2 - playerHeadImage.getHeight () / 2));
+	Point2D playerStartingPosition ((background.getWidth () / 2 - playerHeadImage.getWidth () / 2), (background.getHeight () / 2 - playerHeadImage.getHeight () / 2));
 	Point2D applePosition;
 
 	GameObject playerHead (playerStartingPosition, &playerHeadImage, UP);
 	GameObject playerBody (playerStartingPosition, &playerBodyImage, UP);
 	GameObject apple (applePosition, &appleImage, UP);
 
-	applePosition = randomPlacement (&apple, backround.getWidth (), backround.getHeight ());
+	applePosition = randomPlacement (&apple, background.getWidth (), background.getHeight ());
 	apple.setPosition (applePosition);
 
 	Snake snake (&playerHead, &playerBody, startingLength);
@@ -75,7 +75,7 @@ void GameManager::play()
 		
 		//Check if we died
 		GameObject head (*(snake.getHead ()));
-		BorderCollideCheck (&head, &backround);
+		BorderCollideCheck (&head, &background);
 //		AutoCannibalismCheck (&snake);
 
 		//Check if we found object
@@ -86,7 +86,7 @@ void GameManager::play()
 			cout << "Score: " << score << endl;
 			//Grow body size
 			snake.increaseLength ();
-			apple.setPosition(randomPlacement (&apple, backround.getWidth (), backround.getHeight ()));
+			apple.setPosition(randomPlacement (&apple, background.getWidth (), background.getHeight ()));
 		}
 
 		//push earlier turn to turn queue
@@ -103,7 +103,7 @@ void GameManager::play()
 		if (m_lastRender >= render_fps)
 		{
 			// Add bitmaps to renderer
-			backround.draw();
+			background.draw();
 			snake.drawSnake ();
 			apple.getImage ()->draw ();
 			// Render window
