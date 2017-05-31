@@ -31,10 +31,10 @@ void GameManager::play()
 	srand (time (nullptr));
 
 	// Load bitmaps
-	SDLBmp background("Assets/gfx/sdl2.bmp");
-	SDLBmp playerHeadImage("Assets/gfx/SnakeHead_v1.bmp");
-	SDLBmp playerBodyImage("Assets/gfx/SnakeBody_v1.bmp");
-	SDLBmp appleImage ("Assets/gfx/apple_v1.bmp");
+	SDLBmp background("SDL2_Standardproject/Assets/gfx/sdl2.bmp");
+	SDLBmp playerHeadImage("SDL2_Standardproject/Assets/gfx/SnakeHead_v1.bmp");
+	SDLBmp playerBodyImage("SDL2_Standardproject/Assets/gfx/SnakeBody_v1.bmp");
+	SDLBmp appleImage ("SDL2_Standardproject/Assets/gfx/Apple_v1.bmp");
 
 	Point2D playerStartingPosition ((background.getWidth () / 2 - playerHeadImage.getWidth () / 2), (background.getHeight () / 2 - playerHeadImage.getHeight () / 2));
 	Point2D applePosition;
