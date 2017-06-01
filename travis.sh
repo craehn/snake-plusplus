@@ -5,7 +5,7 @@ echo "CMake path:"
 which cmake
 
 # create cmake directory
-cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles"
+cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" cmake-build-debug
 
 # run tests
 cmake --build cmake-build-debug --target runSnakePlusPlusTests
