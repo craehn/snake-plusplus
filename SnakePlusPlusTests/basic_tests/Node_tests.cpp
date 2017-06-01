@@ -14,22 +14,22 @@ protected:
     }
 
 public:
-    Node_tests() : Test() {
-
-    }
-
-
-    virtual ~Node_tests() {
-    }
-
     Node node1{1, 2, NodeType::apple};
     Node node2{1, 2, NodeType::apple};
     Node node3{2, 2, NodeType::apple};
     Node node4{1, 2, NodeType::snake};
 
+
+    Node_tests() : Test() {
+
+    }
+
+    virtual ~Node_tests() {
+    }
+
 };
 
-TEST_F(Node_tests, isEqualOtherNode) {
+TEST_F(Node_tests, OverLoadedEqualOperator_test) {
 
     EXPECT_EQ(node1, node2);
     EXPECT_NE(node1, node3);
@@ -37,7 +37,7 @@ TEST_F(Node_tests, isEqualOtherNode) {
 
 }
 
-TEST_F(Node_tests, isFunction_Tests) {
+TEST_F(Node_tests, NodeIsOfNodeType_test) {
 
     EXPECT_TRUE(node1.is(node2.type));
     EXPECT_TRUE(node1.is(node3.type));

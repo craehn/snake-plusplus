@@ -5,16 +5,27 @@
 #ifndef SNAKE_PLUSPLUS_GAMEBOARD_H
 #define SNAKE_PLUSPLUS_GAMEBOARD_H
 
-class GameBoard{
-public:
-    GameBoard(int width, int height);
+#include <memory>
+#include <vector>
+#include "Node.h"
 
+using namespace std;
+
+class GameBoard {
+public:
+    GameBoard() : GameBoard{5, 15} {}
+
+    GameBoard(int c, int r);
+
+    Node **getBoard();
 
     ~GameBoard();
+
 private:
-    int width;
-    int height;
-    Node board[][];
+    int columns;
+    int rows;
+    Node **board;
+
 };
 
 #endif //SNAKE_PLUSPLUS_GAMEBOARD_H

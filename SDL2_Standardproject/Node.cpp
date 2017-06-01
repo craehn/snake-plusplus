@@ -4,6 +4,8 @@
 
 #include "Node.h"
 
+Node::Node() : Node{-1, -1} {}
+
 Node::Node(int _grid_x, int _grid_y, NodeType _type) : grid_x{_grid_x}, grid_y{_grid_y}, type{_type} {}
 
 Node::Node(const Node &node) : grid_x{node.grid_x}, grid_y{node.grid_y}, type{node.type} {}
@@ -47,8 +49,3 @@ Node::~Node() {
 
 }
 
-Node::Node() {
-    grid_x = 0;
-    grid_y = 0;
-    type = NodeType::space;
-}
