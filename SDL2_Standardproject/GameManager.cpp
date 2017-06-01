@@ -11,6 +11,9 @@
 
 using namespace std;
 
+
+
+
 /* Initializes SDL, creates the game window and fires off the timer. */
 GameManager::GameManager()
 {
@@ -23,10 +26,14 @@ GameManager::GameManager()
 void GameManager::play()
 {
 	int startingLength = 3;
-	float speed = 150.0f;
-	int speedIncreaseRate = 10;
-	int direction = RIGHT;
-	int score = 0;
+    int direction = RIGHT;
+    float speed = 150.0f;
+    int speedIncreaseRate = 10;
+    int score = 0;
+
+    // Calculate render frames per second (second / frames) (60)
+    float render_fps = 1.f / 60.f;
+
 	
 	srand (time (nullptr));
 
@@ -50,70 +57,72 @@ void GameManager::play()
 
 
 
-	// Calculate render frames per second (second / frames) (60)
-	float render_fps = 1.f / 60.f;
 	m_lastRender = render_fps; // set it to render immediately
+    RunGameLoop(snake, background, apple, render_fps, speed, direction, score, speedIncreaseRate);
+}
+
+void GameManager::RunGameLoop(Snake snake, SDLBmp background, GameObject apple, float render_fps, float speed, int direction, int score, int speedIncreaseRate) {
 
 // Gameloop
-	while (isSlithering)
-	{
+    while (isSlithering)
+    {
 
- //Input
-		// Update input and deltatime
-		InputManager::Instance().Update();
-		Timer::Instance().update();
+        //Input
+        // Update input and deltatime
+        InputManager::Instance().Update();
+        Timer::Instance().update();
 
-		// Calculate displacement based on deltatime
-		auto displacement = speed * Timer::Instance().deltaTime();
-		
-		/* Input Management */
-		CheckInput (&direction);
+        // Calculate displacement based on deltatime
+        auto displacement = speed * Timer::Instance().deltaTime();
 
- //Logic
-		
-		snake.updatePosition(direction, displacement);
-		
-		//Check if we died
-		GameObject head (*(snake.getHead ()));
-		BorderCollideCheck (&head, &background);
+        /* Input Management */
+        CheckInput (&direction);
+
+        //Logic
+
+        snake.updatePosition(direction, displacement);
+
+        //Check if we died
+        GameObject head (*(snake.getHead ()));
+        BorderCollideCheck (&head, &background);
 //		AutoCannibalismCheck (&snake);
 
-		//Check if we found object
-		if (CrashedWithObjectCheck(&head, &apple))
-		{
-			score++;
-			speed += speedIncreaseRate;
-			cout << "Score: " << score << endl;
-			//Grow body size
-			snake.increaseLength ();
-			apple.setPosition(randomPlacement (&apple, background.getWidth (), background.getHeight ()));
-		}
+        //Check if we found object
+        if (CrashedWithObjectCheck(&head, &apple))
+        {
+            score++;
+            speed += speedIncreaseRate;
+            cout << "Score: " << score << endl;
+            //Grow body size
+            snake.increaseLength ();
+            apple.setPosition(randomPlacement (&apple, background.getWidth (), background.getHeight ()));
+        }
 
-		//push earlier turn to turn queue
-		if (m_lastRender >= render_fps)
-		{
-			snake.pushPreviousTurnPosition(snake.getHead()->getPosition());
-		}
+        //push earlier turn to turn queue
+        if (m_lastRender >= render_fps)
+        {
+            snake.pushPreviousTurnPosition(snake.getHead()->getPosition());
+        }
 
- //Render
-		// Update time since last render
-		m_lastRender += Timer::Instance().deltaTime();
+        //Render
+        // Update time since last render
+        m_lastRender += Timer::Instance().deltaTime();
 
-		// Check if it's time to render
-		if (m_lastRender >= render_fps)
-		{
-			// Add bitmaps to renderer
-			background.draw();
-			snake.drawSnake ();
-			apple.getImage ()->draw ();
-			// Render window
-			SDLManager::Instance().renderWindow(m_window);
-			m_lastRender = 0.f;
-		}
-		
-		// Sleep to prevent CPU exthaustion (1ms == 1000 frames per second)
-		SDL_Delay(1);
-	}
+        // Check if it's time to render
+        if (m_lastRender >= render_fps)
+        {
+            // Add bitmaps to renderer
+            background.draw();
+            snake.drawSnake ();
+            apple.getImage ()->draw ();
+            // Render window
+            SDLManager::Instance().renderWindow(m_window);
+            m_lastRender = 0.f;
+        }
+
+        // Sleep to prevent CPU exthaustion (1ms == 1000 frames per second)
+        SDL_Delay(1);
+    }
 }
 
 //Checks input and sets direction

@@ -32,6 +32,7 @@ private:
 	GameManager();								// Hidden constructor
 	GameManager(const GameManager&);			// Hidden copy constructor
 	GameManager& operator=(const GameManager&); // Hidden assign operator
+	void RunGameLoop (Snake snake, SDLBmp background, GameObject apple, float render_fps, float speed, int direction, int score, int speedIncreaseRate);
 	void CheckInput (int* direction);
 	void BorderCollideCheck(GameObject* player, SDLBmp* backround);
 	void AutoCannibalismCheck (Snake* player);
