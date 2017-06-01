@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-echo ${PATH}
-
-echo "CMake path:"
-which cmake
 
 # create cmake-build-debug dir
 sudo mkdir cmake-build-debug
