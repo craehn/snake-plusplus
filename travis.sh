@@ -16,4 +16,4 @@ cmake --build . --target snake-plusplus_run
 SnakePlusPlusTests/basic_tests/runSnakePlusPlusTests --gtest_filter=* --gtest_color=no
 
 # run program
-./snake-plusplus_run
+# ./snake-plusplus_run
