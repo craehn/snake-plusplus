@@ -10,4 +10,4 @@ cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles"
 cmake --build . --target runSnakePlusPlusTests
 
 # run program
-cmake --build . --target runSnakePlusPlusTests
+cmake --build . --target snake-plusplus_run
