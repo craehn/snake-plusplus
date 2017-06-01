@@ -3,7 +3,7 @@
 #include "SDL/SDLBmp.h"
 
 
-enum Rotation
+enum class Direction
 {
 	LEFT,
 	RIGHT,
@@ -15,13 +15,13 @@ enum Rotation
 class GameObject
 {
 public:
-	GameObject (Point2D newPosition, SDLBmp* newImage, Rotation rotation);
+	GameObject (Point2D newPosition, SDLBmp* newImage, Direction rotation);
 	Point2D getPosition ();
 	void setPosition (Point2D newPosition);
 	SDLBmp* getImage ();
 	void setImage (SDLBmp* newImage);
-	void setRotation (Rotation newRotation);
-	Rotation getRotation ();
+	void rotate(Direction newDirection);
+	Direction getDirection();
 	Point2D getPreviousPosition();
 	void setPreviousPosition (Point2D position);
 	void follow(GameObject* bodyPart);
@@ -33,7 +33,7 @@ public:
 private:
 	Point2D previousPosition;
 	Point2D position;
-	Rotation rotation; 
+	Direction direction; 
 	SDLBmp* image;
 	float turnX;
 	float turnY;

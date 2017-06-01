@@ -13,7 +13,8 @@ public:
 	void increaseLength ();
 	int getLength ();
 	GameObject* getHead ();
-	void updatePosition (int direction, float displacement);
+	void applyVelocity(GameObject *obj, float vel_x, float vel_y, Direction dir);
+	void updatePosition (Direction direction, float displacement);
 	void pushPreviousTurnPosition (Point2D lastPosition);
 	Point2D popPreviousTurnPosition ();
 	void drawSnake ();
@@ -25,5 +26,6 @@ private:
 	std::queue<Point2D> earlierTurns;
 	GameObject* headObject;
 	GameObject* bodyObject;
+    //void applyVelocity(int x, int y);
 //	GameObject* tailObject;
 };

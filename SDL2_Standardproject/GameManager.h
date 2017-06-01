@@ -32,8 +32,8 @@ private:
 	GameManager();								// Hidden constructor
 	GameManager(const GameManager&);			// Hidden copy constructor
 	GameManager& operator=(const GameManager&); // Hidden assign operator
-	void CheckInput (int* direction);
-	void BorderCollideCheck(GameObject* player, SDLBmp* backround);
+	void CheckInput (Direction& direction);
+	void BorderCollideCheck(GameObject* player, SDLBmp* background);
 	void AutoCannibalismCheck (Snake* player);
 	Point2D randomPlacement(GameObject* image, int boardWidth, int boardHeight);
 	static bool CrashedWithObjectCheck (GameObject* player, GameObject* object);
