@@ -6,10 +6,14 @@ sudo mkdir cmake-build-debug
 # build to directory
 cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles"
 
-# run tests
-echo "\n\n\nBuilding and running tests"
+# build test project
 cmake --build . --target runSnakePlusPlusTests
 
-# run program
-echo "\n\n\nBuilding and running executable"
+# build executable program
 cmake --build . --target snake-plusplus_run
+
+# run tests
+SnakePlusPlusTests/basic_tests/runSnakePlusPlusTests --gtest_filter=* --gtest_color=no
+
+# run program
+./snake-plusplus_run
