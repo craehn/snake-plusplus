@@ -4,7 +4,10 @@ echo ${PATH}
 echo "CMake path:"
 which cmake
 
-# create cmake directory
+# create cmake-build-debug dir
+sudo mkdir cmake-build-debug
+
+# build to directory
 cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" cmake-build-debug
 
 # run tests
