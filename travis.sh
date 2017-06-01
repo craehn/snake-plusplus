@@ -4,10 +4,10 @@
 sudo mkdir cmake-build-debug
 
 # build to directory
-cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" cmake-build-debug
+cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles"
 
 # run tests
-cmake --build cmake-build-debug --target runSnakePlusPlusTests
+cmake --build . --target runSnakePlusPlusTests
 
 # run program
-cmake --build cmake-build-debug --target runSnakePlusPlusTests
+cmake --build . --target runSnakePlusPlusTests
