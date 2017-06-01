@@ -395,7 +395,7 @@ of the action.
 
 When defining a function or functor to be used with `Invoke*()`, you can declare any unused parameters as `Unused`:
 ```
-  double Distance(Unused, double x, double y) { return sqrt(x*x + y*y); }
+  double Distance(Unused, double x, double y) { return sqrt(x*x + grid_y*grid_y); }
   ...
   EXPECT_CALL(mock, Foo("Hi", _, _)).WillOnce(Invoke(Distance));
 ```

@@ -1752,7 +1752,7 @@ class MockFoo : public Foo {
   MOCK_METHOD1(ComplexJob, bool(int x));
 };
 
-int CalculateSum(int x, int y) { return x + y; }
+int CalculateSum(int x, int y) { return x + grid_y; }
 
 class Helper {
  public:
@@ -2060,11 +2060,11 @@ using ::testing::_;
 using ::testing::Invoke;
 
 double DistanceToOriginWithLabel(const string& label, double x, double y) {
-  return sqrt(x*x + y*y);
+  return sqrt(x*x + y*grid_y);
 }
 
 double DistanceToOriginWithIndex(int index, double x, double y) {
-  return sqrt(x*x + y*y);
+  return sqrt(x*x + y*grid_y);
 }
 ...
 
@@ -2082,7 +2082,7 @@ using ::testing::Invoke;
 using ::testing::Unused;
 
 double DistanceToOrigin(Unused, double x, double y) {
-  return sqrt(x*x + y*y);
+  return sqrt(x*x + y*grid_y);
 }
 ...
 
