@@ -379,7 +379,7 @@ __pycache__/
 *.xsd.cs
 
 # End of https://www.gitignore.io/api/c++,clion,visualstudio,visualstudiocode
-/cmake-build-debug/
-cmake-build-debug/CMakeFiles/CMakeTmp/
-cmake-build-debug/CMakeFiles/Progress/
-cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/
+# /cmake-build-debug/
+# cmake-build-debug/CMakeFiles/CMakeTmp/
+# cmake-build-debug/CMakeFiles/Progress/
+# cmake-build-debug/CMakeFiles/snake-plusplus.dir/SDL2_Standardproject/

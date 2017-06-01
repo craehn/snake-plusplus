@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -g   CMakeFiles/runSnakePlusPlusTests.dir/basic_check.cpp.o CMakeFiles/runSnakePlusPlusTests.dir/Point2D_tests.cpp.o  -o runSnakePlusPlusTests ../lib/googletest/libgtest.a ../lib/googletest/libgtest_main.a ../../SDL2_Standardproject/libSDL2_Standardproject.a ../lib/googletest/libgtest.a -lpthread 

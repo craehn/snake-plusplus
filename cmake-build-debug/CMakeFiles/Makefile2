@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/thomas/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.4694.4/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -E remove -f
+RM = /home/thomas/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.4694.4/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/clement/ClionProjects/snake-plusplus
+CMAKE_SOURCE_DIR = /home/thomas/Documents/snake-plusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/clement/ClionProjects/snake-plusplus/cmake-build-debug
+CMAKE_BINARY_DIR = /home/thomas/Documents/snake-plusplus/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/snake-plusplus_run.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/clement/ClionProjects/snake-plusplus/cmake-build-debug
 CMakeFiles/snake-plusplus_run.dir/all: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
 	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/depend
 	$(MAKE) -f CMakeFiles/snake-plusplus_run.dir/build.make CMakeFiles/snake-plusplus_run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target snake-plusplus_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target snake-plusplus_run"
 .PHONY : CMakeFiles/snake-plusplus_run.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/snake-plusplus_run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/snake-plusplus_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/snake-plusplus_run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/snake-plusplus_run.dir/rule
 
 # Convenience name for target.
@@ -121,7 +121,7 @@ SDL2_Standardproject/preinstall:
 SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all:
 	$(MAKE) -f SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build.make SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/depend
 	$(MAKE) -f SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build.make SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target SDL2_Standardproject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target SDL2_Standardproject"
 .PHONY : SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
 
 # Include target in all.
@@ -131,9 +131,9 @@ all: SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
 
 # Build rule for subdir invocation for target.
 SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 0
 .PHONY : SDL2_Standardproject/CMakeFiles/SDL2_Standardproject.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ SnakePlusPlusTests/lib/googletest/preinstall:
 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target gtest_main"
 .PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -209,9 +209,9 @@ all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 0
 .PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -236,7 +236,7 @@ clean: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest_main.dir/clean
 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build.make SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target gtest"
 .PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -246,9 +246,9 @@ all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 0
 .PHONY : SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -293,7 +293,7 @@ SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all: SnakePl
 SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all: SnakePlusPlusTests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build.make SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/depend
 	$(MAKE) -f SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build.make SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target runSnakePlusPlusTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target runSnakePlusPlusTests"
 .PHONY : SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all
 
 # Include target in all.
@@ -303,9 +303,9 @@ all: SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all
 
 # Build rule for subdir invocation for target.
 SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/clement/ClionProjects/snake-plusplus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Documents/snake-plusplus/cmake-build-debug/CMakeFiles 0
 .PHONY : SnakePlusPlusTests/basic_tests/CMakeFiles/runSnakePlusPlusTests.dir/rule
 
 # Convenience name for target.

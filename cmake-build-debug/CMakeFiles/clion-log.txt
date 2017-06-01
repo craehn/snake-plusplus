@@ -1,6 +1,6 @@
-/home/clement/Programs/clion-2016.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/clement/ClionProjects/snake-plusplus
--- The C compiler identification is GNU 5.4.0
--- The CXX compiler identification is GNU 5.4.0
+/home/thomas/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.4694.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/thomas/Documents/snake-plusplus
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -24,10 +24,10 @@
 -- Looking for pthread_create in pthread - found
 -- Found Threads: TRUE  
 </FindSDL2.cmake>
--- Found SDL2: /usr/local/lib/libSDL2main.a;/usr/local/lib/libSDL2.so;-lpthread  
+-- Found SDL2: /usr/lib/x86_64-linux-gnu/libSDL2main.a;/usr/lib/x86_64-linux-gnu/libSDL2.so;-lpthread  
 -- Found SDL2_image: /usr/lib/x86_64-linux-gnu/libSDL2_image.so (found version "..") 
 -- Found SDL2_ttf: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so (found version "..") 
--- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.13") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/clement/ClionProjects/snake-plusplus/cmake-build-debug
+-- Build files have been written to: /home/thomas/Documents/snake-plusplus/cmake-build-debug

@@ -1,4 +1,4 @@
-# Install script for directory: /home/clement/ClionProjects/snake-plusplus
+# Install script for directory: /home/thomas/Documents/snake-plusplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/SDL2_Standardproject/cmake_install.cmake")
-  include("/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/SnakePlusPlusTests/cmake_install.cmake")
+  include("/home/thomas/Documents/snake-plusplus/cmake-build-debug/SDL2_Standardproject/cmake_install.cmake")
+  include("/home/thomas/Documents/snake-plusplus/cmake-build-debug/SnakePlusPlusTests/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/clement/ClionProjects/snake-plusplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thomas/Documents/snake-plusplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
