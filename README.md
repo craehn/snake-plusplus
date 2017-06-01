@@ -1,9 +1,14 @@
-Readme file for Snake++ project.
+# Snake++ [![Build Status](https://travis-ci.org/TheHeartmann/snake-plusplus.svg?branch=master)](https://travis-ci.org/TheHeartmann/snake-plusplus)
 
-# Snake in C++
-Cross-platform development running Visual Studio in Windows and CLion in macOS.
+Snake in C++ using SDL2 for graphics. Built with Linux and love.
 
-Authors: 
-- Torstein Alvern (Windows/VS)
-- Thomas Hartmann (macOS/CLion)
-- Clement Marescaux (Windows/VS)
+Authors:
+- Torstein Alvern (Ubuntu)
+- Thomas Hartmann (Gnome)
+- Clement Marescaux (Ubuntu)
+
+## Tests
+
+## Travis
+
+## Design choices
